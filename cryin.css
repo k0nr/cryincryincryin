@@ -23,6 +23,10 @@ font-size:30px;
 
     }
     
+html {
+    max-width: 100%;
+}
+    
 body {
     cursor: url('images/cursor.cur'), default;
     
@@ -33,28 +37,168 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    
+    height: 100%;
 }
 
-    .lead {
+
+    .container {
         position: sticky;
-        width: 50%;
-        left: 20%;
-        top: 40%;
-        height: 100vh;
-        z-index: 3;
-    
-        
-        
+        width: 100%;
+        top: 2em;
     }
+    
+        .graph {
+            position: sticky;
+            top: 0;
+            max-height: 100vh;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            z-index: 100;
+                
+        }
+        
+        .dudes {
+            position: sticky;
+            top: 1px;
+            max-height: 100vh;
+            overflow-y: hidden;
+            width: 80%;
+            left: 10%;
+            
+            z-index: 200;
+        }
+            .dudes img {
+                width: 100%;
+            }
+        
+        .cities {
+            position: sticky;
+            top: 55%;
+            z-index: 300;
+            }
+            .cities img {
+                width: 55%;
+                bottom: 0%;
+                
+            }
+            
+            .flames-1 {
+                position: sticky;
+                top: 40%;
+                z-index: 250;
+                width: 100%;
+            }
+                    .flames-1 img {
+                        width: 20%;
+                    }
+
+                    .fire-1 {
+                        position: relative;
+                        left: 30%;
+                    }
+                    
+            .flames-2 {
+                position: sticky;
+                top: 60%;
+                z-index: 250;
+            }
+                .fire-2 {
+                    position: relative;
+                    left: 20%;
+                }
+                
+                .flames-2 img {
+                    width: 15%;
+                }
+                
+                
+            
+            
+            .flames-3 {
+                position: sticky;
+                top: 69%;
+                z-index: 250;
+            }
+            
+                .flames-3 img {
+                    width: 8%;
+                }
+                
+                .fire-3 {
+                    position: relative;
+                    left: 10%;
+                }
+        
+            
+        .ocean {
+            position: sticky;
+            top: 51%;
+            z-index: 400;
+            
+        }
+            .ocean img {
+                width: 100%;
+                overflow-y: hidden;
+            }
+        
+        
+        .title {
+            position: sticky;
+            top: 20%;
+            width: 100%;
+            z-index: 500;
+            min-height: 100vh;
+        }
+            .title h1 {
+                position: absolute;
+                left: 20%;
+            }
+
+            
+        .plays {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: relative;
+            max-width: 50%;
+            left: 35%;
+            z-index: 600;
+            min-height: 100vh;
+            padding-bottom: 75vh;
+            
+        }
+            .plays >* {
+                flex: 1 0 30%;
+                
+            
+            }
+            
+                .item {
+                 padding: 4px;   
+                 height: 20%;
+                }
+            
+   /* .lead {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;  
+            }
+                .lead-text {
+                    position: absolute; 
+                    width: 50%;
+                    left: 20%;
+                    top: 40%;
+                }
 
     .graph {
         position: sticky;
         width: 100%;
         height: 100%;
         background: url('images/collage/profit.png');
-        top: 0;
-        z-index: 1;
+        top: 2em;
+        z-index: 2;
         
     }
     
@@ -63,9 +207,11 @@ body {
         width: 100%;
         height: 100%;
         background: url('images/collage/dudes.png');
-        top: 0;
-        z-index: 2;
+        top: 4em;
+        z-index: 3;
     }
+    
+    */ 
 
 /* youtube */
 
