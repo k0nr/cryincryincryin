@@ -338,7 +338,24 @@ background: linear-gradient(180deg, rgba(0,124,194,1) 0%, rgba(0,96,151,1) 30%, 
  z-index: 700;
  padding-bottom: 48px;
 }
+    .phone {
+        min-width: 65%;
+        min-height: 200px; 
+        background-color: cyan;
+        color: black;
+        font-size: 38px;
+        margin: 32px;
+        display: flex;
+        flex: 1 0 50%;
+        flex-basis: 100%;
+        justify-content: center;
+    }
 
+    .number {
+        align-items: center;
+        align-content: center;
+        
+    }
 .youtube-responsive-container {
 position:relative;
 padding-bottom:56.25%;
