@@ -258,6 +258,7 @@ background: linear-gradient(180deg, rgba(0,124,194,1) 0%, rgba(0,96,151,1) 30%, 
                  
                 .item a:hover {
                     text-decoration: underline;
+                    color: white;
                     background-color: #228166;
                 }
                 
