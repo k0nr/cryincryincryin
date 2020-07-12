@@ -246,7 +246,53 @@ background: linear-gradient(180deg, rgba(0,124,194,1) 0%, rgba(0,96,151,1) 30%, 
                  background: rgba(31, 117, 93, 1);
                  color: white;
                 }
-            
+                
+                .item a:link {
+                    text-decoration: none;
+                    color: white;
+                }
+                
+                 .item a:visited {
+                     color: #36d0a5;
+                 }
+                 
+                .item a:hover {
+                    text-decoration: underline;
+                    background-color: #228166;
+                }
+                
+            .bottom {
+                display: flex;
+                flex-direction: row;
+                position: absolute;
+                bottom: 1px;
+                width: 75%;
+                left: 25%;
+            }
+                
+                .linx {
+                    padding: 8px;
+                    color: white;
+                    border: 3px outset white;
+                    margin: 8px;
+
+                }
+                
+                    .linx a:link {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    .linx a:visited {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    .linx a:hover {
+                        text-decoration: underline;
+                    }
+                        
+               
    /* .lead {
         position: sticky;
         top: 0;
@@ -283,6 +329,14 @@ background: linear-gradient(180deg, rgba(0,124,194,1) 0%, rgba(0,96,151,1) 30%, 
     */ 
 
 /* youtube */
+
+.video {
+ position: relative;
+ width: 65%;
+ left: 15%;
+ z-index: 700;
+ padding-bottom: 48px;
+}
 
 .youtube-responsive-container {
 position:relative;
