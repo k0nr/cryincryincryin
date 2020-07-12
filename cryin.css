@@ -136,12 +136,12 @@ body {
             
             .flames-1 {
                 position: sticky;
-                top: 40%;
+                top: 50%;
                 z-index: 325;
                 width: 100%;
             }
                     .flames-1 img {
-                        width: 20%;
+                        height: 60%;
                     }
 
                     .fire-1 {
@@ -151,7 +151,7 @@ body {
                     
             .flames-2 {
                 position: sticky;
-                top: 60%;
+                top: 65%;
                 z-index: 250;
             }
                 .fire-2 {
@@ -160,7 +160,7 @@ body {
                 }
                 
                 .flames-2 img {
-                    width: 15%;
+                    height: 35%;
                 }
                 
                 
@@ -168,12 +168,12 @@ body {
             
             .flames-3 {
                 position: sticky;
-                top: 69%;
+                top: 75%;
                 z-index: 250;
             }
             
                 .flames-3 img {
-                    width: 8%;
+                    height: 30%;
                 }
                 
                 .fire-3 {
@@ -266,8 +266,8 @@ background: linear-gradient(180deg, rgba(0,124,194,1) 0%, rgba(0,96,151,1) 30%, 
                 flex-direction: row;
                 position: absolute;
                 bottom: 1px;
-                width: 75%;
-                left: 25%;
+                width: 50%;
+                left: 0%;
             }
                 
                 .linx {
