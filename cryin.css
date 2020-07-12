@@ -234,7 +234,7 @@ background: linear-gradient(180deg, rgba(0,124,194,1) 0%, rgba(0,96,151,1) 30%, 
             
         }
             .plays >* {
-                flex: 1 0 30%;
+                flex: 1 1 25%;
             }
             
                 .item {
@@ -253,7 +253,7 @@ background: linear-gradient(180deg, rgba(0,124,194,1) 0%, rgba(0,96,151,1) 30%, 
                 }
                 
                  .item a:visited {
-                     color: #36d0a5;
+                     color: #248a6d;
                  }
                  
                 .item a:hover {
